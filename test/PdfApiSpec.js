@@ -1,5 +1,5 @@
 var mockery = require('mockery'),
-    CreateRequest = require('wkhtmltopdf-nodejs-entity').CreateRequest,
+    CreateRequest = require('wkhtmltopdf-nodejs-options-wrapper').CreateRequest,
     Promise = require('promise');
 
 function getSpawnMock(eventHandlers) {
