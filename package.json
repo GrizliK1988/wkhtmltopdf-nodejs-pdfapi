@@ -1,0 +1,33 @@
+{
+  "name": "wkhtmltopdf-nodejs-pdfapi",
+  "version": "1.0.1",
+  "description": "Api for pdf generation using wkhtmltopdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrizliK1988/wkhtmltopdf-nodejs-pdfapi.git"
+  },
+  "keywords": [
+    "wkhtmltopdf",
+    "nodejs"
+  ],
+  "author": "Dmitry Grachikov <dgrachikov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrizliK1988/wkhtmltopdf-nodejs-pdfapi/issues"
+  },
+  "homepage": "https://github.com/GrizliK1988/wkhtmltopdf-nodejs-pdfapi#readme",
+  "dependencies": {
+    "promise": "^7.0.4",
+    "wkhtmltopdf-nodejs-options-wrapper": "^1.0.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.19",
+    "jasmine": "^2.3.2",
+    "jasmine-node": "^1.14.5",
+    "mockery": "^1.4.0"
+  }
+}
