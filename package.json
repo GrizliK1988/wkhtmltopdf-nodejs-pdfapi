@@ -1,6 +1,6 @@
 {
   "name": "wkhtmltopdf-nodejs-pdfapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Api for pdf generation using wkhtmltopdf",
   "main": "index.js",
   "scripts": {
