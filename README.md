@@ -13,7 +13,8 @@ To use this library you need:
 If you are going to use **wkhtmltopdf-nodejs-pdfapi** on a machine with operating system without graphical shell, 
 then you will need to install display server, for example - **xvfb**.
 
-For your convenience **vagrant box** with all necessary software has been created. It can be downloaded here: ...
+For your convenience **vagrant box** with all necessary software has been created. 
+It can be downloaded from https://github.com/GrizliK1988/wkhtmltopdf-nodejs-vagrant.
 
 # API
 
@@ -38,7 +39,7 @@ If pdf is deleted successfully, then promise will be resolved without arguments,
 
 ```
 var wkhtmlToPdfOptions = require('wkhtmltopdf-nodejs-options-wrapper'),
-    PdfApi = require('./index');
+    PdfApi = require('wkhtmltopdf-nodejs-pdfapi');
 
 var pdfApi = new PdfApi(),
     request = new wkhtmlToPdfOptions.CreateRequest(),
