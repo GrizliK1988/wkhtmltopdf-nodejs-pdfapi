@@ -1,6 +1,6 @@
 {
   "name": "wkhtmltopdf-nodejs-pdfapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Api for pdf generation using wkhtmltopdf",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/GrizliK1988/wkhtmltopdf-nodejs-pdfapi#readme",
   "dependencies": {
     "promise": "^7.0.4",
-    "wkhtmltopdf-nodejs-options-wrapper": "^1.0.3"
+    "wkhtmltopdf-nodejs-options-wrapper": "^1.0.7"
   },
   "devDependencies": {
     "istanbul": "^0.3.19",
