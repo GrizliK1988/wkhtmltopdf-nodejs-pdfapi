@@ -9,10 +9,7 @@ var PdfApi = function(displayServer, displayServerParameterList) {
 
 PdfApi.prototype = {
     createPdf: function(request, outputFilePath) {
-        var pdfCommandParts = request.toString().split(' ').filter(function(value) {
-                return value !== '';
-            }),
-            commandParts = ['wkhtmltopdf'].concat(pdfCommandParts),
+        var commandParts = ['wkhtmltopdf'].concat(request.toList()),
             displayServerCommandParts = [],
             debug = [];
 
